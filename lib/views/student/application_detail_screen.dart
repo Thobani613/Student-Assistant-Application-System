@@ -256,7 +256,8 @@ class _DetailCard extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(row.label,
-                          style: const TextStyle(color: Colors.grey, fontSize: 13)),
+                          style: const TextStyle(
+                              color: Colors.grey, fontSize: 13)),
                       Text(row.value,
                           style: const TextStyle(
                               fontWeight: FontWeight.w500, fontSize: 13)),
